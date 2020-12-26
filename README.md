@@ -126,7 +126,7 @@ microservicecloud-config demo
 		max-wait-millis: 200 
 	mybatis:
 	config-location: classpath:mybatis/mybatis.cfg.xml
-	type-aliases-package: com.atguigu.springcloud.entities
+	type-aliases-package: com.wave.top.springcloud.entities
 	mapper-locations:
 	- classpath:mybatis/mapper/**/*.xml
 	
@@ -165,7 +165,7 @@ microservicecloud-config demo
 	
 	mybatis:
 	config-location: classpath:mybatis/mybatis.cfg.xml
-	type-aliases-package: com.atguigu.springcloud.entities
+	type-aliases-package: com.wave.top.springcloud.entities
 	mapper-locations:
 	- classpath:mybatis/mapper/**/*.xml
 	
